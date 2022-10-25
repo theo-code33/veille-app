@@ -12,10 +12,6 @@ const Home = () => {
         }
         fetchArticles();
     }, []);
-    
-    const redirectTo = (id) => {
-        window.location.href = `/${id}`;
-    }
 
     return ( 
         <div className="container">
