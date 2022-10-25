@@ -1,0 +1,34 @@
+.article-img{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &.image-1{
+        background-image: url("https://via.placeholder.com/150");
+    }
+}
+
+.article-text{
+    margin-top: 3rem;
+    padding: 1rem;
+    &-title{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 0.8rem;
+            &.color-1{
+                color: $color-article-1;
+            }
+        }
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    &-content{
+        p{
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

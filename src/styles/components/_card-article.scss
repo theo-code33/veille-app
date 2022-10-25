@@ -1,0 +1,45 @@
+@import '../variables';
+
+.card-article {
+  background-color: $color-white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+  &:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  &-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 1rem;
+    img{
+      border-radius: 6px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.card-color-1 {
+  background-color: $color-article-1;
+}
+.card-color-2 {
+  background-color: $color-article-2;
+}
+.card-color-3 {
+  background-color: $color-article-3;
+}
+.card-color-4 {
+  background-color: $color-article-4;
+}
+.card-color-5 {
+  background-color: $color-article-5;
+}
